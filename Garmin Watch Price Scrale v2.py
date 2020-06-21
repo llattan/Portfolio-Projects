@@ -21,7 +21,7 @@ options.add_experimental_option('androidDeviceSocket', 'Terrace_devtools_remote'
 options.add_experimental_option('androidExecName', 'Terrace')
 
 
-driverpath = './chromedriver'
+driverpath = './chromedriver' #replace if chromedriver is in a different folder 
 driver = webdriver.Chrome(driverpath)
 
 price_list = {}
